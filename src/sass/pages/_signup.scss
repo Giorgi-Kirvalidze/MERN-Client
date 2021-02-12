@@ -1,0 +1,27 @@
+.signup{
+
+    border:5px solid #a6a9b6;
+    margin: 10rem auto;
+    box-shadow: inset 2rem 2rem 10px #a6a9b6;
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    :not(:last-child){
+        padding: 1rem;
+    }
+    label{
+        color:#eeeeee;
+        align-self: flex-start;
+        transform: translateX(10.5rem);
+    }
+    &__input{
+        padding: 1.5rem 2rem;
+        width:60%;
+    }
+    .btn{
+        margin-top:2rem;
+    }
+}

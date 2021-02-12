@@ -1,0 +1,27 @@
+.header{
+    grid-column:full-start/full-end;
+    background-color: #222831;
+    margin:2rem 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &__search{
+        padding:1.25rem 2rem;
+        flex-basis:25%;
+        border:5px solid #222831;
+        border-radius: 1rem;
+        outline-style: none;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+    }
+    &__link{
+        text-decoration: none;
+        margin-right:2rem;
+        color:inherit;
+        letter-spacing: .1px;
+    }
+}

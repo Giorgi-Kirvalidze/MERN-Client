@@ -1,0 +1,9 @@
+.container {
+    background-color:#222831;
+    height:100vh;
+    display: grid;
+    grid-gap:1.5rem; 
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(10, [col-start] minmax(min-content, 11.4rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    grid-template-rows:5rem  minmax(20rem,1fr) minmax(min-content,max-content) ;
+    overflow: hidden;
+}

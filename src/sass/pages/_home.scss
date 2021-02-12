@@ -1,0 +1,34 @@
+
+.homeScreen{
+       grid-column:center-start/center-end;
+       color:#ffffff;
+      
+       h1{
+              color:#ffffff;
+              text-align: center;
+              padding:3rem;
+              font-weight:500;
+       }
+}      
+.products{
+       display:grid;
+       grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+       gap:1rem;
+}
+
+.product{
+       text-align: center;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       background-color: #374045;
+       padding:2rem;
+       &__img{
+              height:12rem;
+              width:auto;
+               border-style: none;
+       }
+}
+.rating span{
+       margin-right:.1rem;
+}
